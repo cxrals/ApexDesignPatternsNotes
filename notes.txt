@@ -1,0 +1,26 @@
+Creational patterns use cases:
+
+- Instantiating classes in the Apex Scheduler class. If we directly instantiate the
+Apex class in scheduler using new keyword, then the class gets serialized and,
+therefore, locked for further changes.
+- Using multiple classes while creating test data in test classes.
+- Creating code libraries only to reveal their usage and not their actual
+implementation.
+- Dynamically creating instances of classes based on the configuration stored in
+custom settings.
+
+Structural patterns use cases:
+
+- Dynamically assigning an additional behavior to the existing object
+- Creating a relationship between incompatible classes
+- Simplifying an interaction with complex classes
+- Reusing an object to improve the memory footprint
+
+Behavioral patterns use cases:
+
+- Passing same request to multiple handlers
+- Implementing object-oriented callbacks
+- Persisting and recovering the state of an object
+- Parsing languages or defined scripts
+- Sending a state notification to multiple recipients
+- Defining a family of algorithms and using them interchangeably
